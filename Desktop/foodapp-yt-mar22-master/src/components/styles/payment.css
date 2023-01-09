@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family:sans-serif;
+    background-color: #e2ebed;
+}
+
+.app-container{
+    height: 530px;
+    width: 500px;
+    background-color: #e9c0e9;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    padding-top: 50px;
+    
+}
+
+.top-box{
+    height: 70px;
+    background-color: #502274;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    padding-top: 30px;
+
+
+}
+
+.top-box p{
+    text-align: center;
+    /* padding-top: 20px; */
+    color: white
+}
+
+.middle-box{
+    height: 120px;
+    background-color: #502274;
+    margin: -70px 30px 20px;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-top: 80px;
+} 
+
+.middle-box h1 {
+    padding-top: 10px;
+    font-size: 50px;
+    font-weight: normal;
+ } 
+ .middle-box h1 span {
+        font-size: 20px;
+        margin-left: 5px;
+        bottom: 18px;
+        position: relative;
+ }
+
+ .middle-box p{
+    color: black;
+ }
+
+ .radio-checkbox{
+    padding-left: 20%;
+    padding-top: 10%;
+ }
+
+ .pointer{
+    cursor: pointer;
+    border: none;
+ }
+
+ .Proceedbutton{
+    background-color: #502274;
+    width: 300px;
+    height: 60px;
+    align-items: center;
+    margin-top: 10%;
+    cursor: pointer;
+    border: none;
+ }
+ 

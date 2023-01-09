@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+  background-color: #f5f3f3; 
+}
+
+.green-tick{
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.hide{
+    margin: 5%;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+.hide h1{
+    color: #3ab449;
+    
+}
